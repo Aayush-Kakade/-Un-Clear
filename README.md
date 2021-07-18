@@ -1,29 +1,42 @@
-# SoC 2021 (Un)Clear
+# **SoC 2021 (Un)Clear**
 
-This project is based on Image Super Resolution which started in the first week of April 2021. This was a learning project in which included the following topics:
+> *Welcome! You have landed on the repository for the SoC 2021 project, (Un)Clear.*
 
-## Image processing using OpenCV:
+# The Project:
 
-- Started off with the basics of image processing like smoothening and blurring of images, switching between different colour systems, rotation etc.
-- Later we covered some advanced algorithms and functions.
-- Lastly we wrapped up this topic with an assignment on OpenCV which included live web camera video capture, switching between colour systems and making a pencil sketch from live webcam footage.
+The main aim of this project is to build and implement the ERSGAN model from scratch using OpenCV and TensorFlow for Image Super-Resolution. Image Super-Resolution is a method used to convert a lower resolution image into a higher resolution image.
 
-## Basics of Machine Learning:
+# Flow of the project:
 
-- We started off with a course on machine learning offered by google which was more like a theoritical course which covered different types of sets, neural networks and embeddings.
+## Week 0: Basics of Python and Introduction to GitHub
 
-## Introduction to Tensorflow:
+- Covered the basics of Python from a [YouTube tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc&ab_channel=ProgrammingwithMosh).
+- Got introduced to Git and GitHub from a [YouTube tutorial](https://www.youtube.com/watch?v=8JJ101D3knE&ab_channel=ProgrammingwithMosh). 
 
-- We started off with a course on tensorflow offered by udacity which covered CNNs and transfer learning.
-- We wraaped up this topic with an assignment in which we developed a machine learning model to recognize hand written digits. We used an oline platform kaggle for this assignment.
+## Week 1: Image processing using OpenCV and Introduction to Machine Learning
 
-## ResNet, GAN and CGAN:
+- Got introduced to OpenCV which is an amazing library for image processing.
+- [Assignment 1](https://github.com/Aayush-Kakade/-Un-Clear/tree/main/OpenCV%20Assignment): Using basic OpenCV functions.
+- Started [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro) offered by Google.
 
-- Studied about ResNet i.e Residual Neural Network.
-- Introduction to GAN i.e Generative Adversial Network and Conditional GAN.
-- Assignment: Implementing CGAN to extract colour images out from pencil sketches.
+## Week 2: Basics of Machine Learning and Introduction to TensorFlow:
 
-## SRGAN and ESRGAN:
+- Finished off the crash course provided by google.
+- Started a course on [Intro to TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187) offered by Udacity.
+- [Assignment 2](https://github.com/Aayush-Kakade/-Un-Clear/tree/main/Digit-Recognizer): Developed a Digit Recognizer using CNNs on Kaggle.
 
-- Studied some new papers in this field about SRGAN(Super-Resolution Generative Adversial Network) and ERSGAN(Enhanced Super-Resolution Generative Adversarial Networks).
-- Final Implementaion: Implemented the ERSGAN model.
+## Week 3: ResNet architecture, GAN and CGAN:
+
+- Learned about a very powerful convolutional model known as Residual Neural Network [(ResNet)](https://towardsdatascience.com/implementing-a-resnet-model-from-scratch-971be7193718).
+- Got introduced to Generative Adversarial Network [(GAN)](https://www.youtube.com/playlist?list=PLdxQ7SoCLQAMGgQAIAcyRevM8VvygTpCu) and Conditional GAN [(CGAN)](https://towardsdatascience.com/generative-adversarial-networks-gans-89ef35a60b69).
+- [Assignment 3](https://github.com/Aayush-Kakade/-Un-Clear/tree/main/Assignment%203): Implemented CGAN to make a model for converting pencil sketches to coloured images.
+
+## Week 4: SRGAN and ESRGAN models:
+
+- Studied about some recent research papers in this field, which were Super-Resolution Generative Adversarial Networks [(SRGAN)](https://arxiv.org/abs/1609.04802). and Enhanced Super-Resolution Generative Adversarial Networks [(ESRGAN)](https://arxiv.org/abs/1809.00219).
+- [Assignment 4](https://github.com/Aayush-Kakade/-Un-Clear/tree/main/ESRGAN%20Implementation): Started implementation of the ESRGAN model with the help of a [tutorial](https://medium.com/analytics-vidhya/esrgan-enhanced-super-resolution-generative-adversarial-network-using-keras-a34134b72b77).
+
+## Week 5 and 6: Completing the ESRGAN model implementation and documentation:
+
+- Finished implementing the ESRGAN model.
+- Final video making and documentation.
